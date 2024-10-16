@@ -4,7 +4,7 @@ body {
 }
 h1 {
     text-align: center;
-    color:lightpink;
+    color:rgb(255, 165, 216);
 }
 
 .projects { 
@@ -15,6 +15,25 @@ h1 {
     width: 30%;
     margin: 10px;
     padding: 20px 10px;
-    background: rgb(255, 136, 204); /* pick a color */
+    background: rgb(255, 165, 216); /* pick a color */
     border-radius: 25%;
 }
+
+.project img{
+    width: 300px;
+    /*cheight: 300px; */
+    margin: 10px;
+    border: 2px solid rgb(255, 20, 147); /* choose a color */
+    display: block;
+    margin: auto;
+    }
+
+a { /* change the appearance of ALL links */
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 20, 147);
+    }
+    .project p { /* change the appearance of paragraph tags inside .project divs */
+    text-align: center;
+    margin: 15px;
+    }
