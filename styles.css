@@ -59,3 +59,16 @@ about p {
     margin: auto;
     line-height: 125%;
     }
+.contact {
+    padding-left: 20px;
+    }
+.contact a {
+    color: black;
+    }
+    
+.skills {
+    padding-left: 20px;
+    }
+.skills a {
+    color: black;
+    }
