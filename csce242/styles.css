@@ -1,0 +1,26 @@
+/*Structure*/
+body {
+    font-family:cursive;
+    background:url("beach.sunset.jpg");
+    background-size:cover;
+}
+div {
+    background-color:lightpink;
+    width: 70%;
+    margin:auto;    /*center*/
+    padding: 1%;  /*get text away from edge*/
+    border-radius:5px;  /*round corners*/
+}
+/*Typography*/
+
+h1 {
+    color:deeppink;
+}
+a {
+    text-decoration: none;
+    color:rgb(255, 158, 255);
+}
+p {
+    color: rgb(50, 125, 200);
+}
+
