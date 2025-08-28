@@ -1,0 +1,75 @@
+body {
+    background:#88BF50;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#content {
+    width:95%;
+    margin: auto;
+    background: #E2B679;
+    border-radius: 5px;
+    padding: 5px;
+}
+#main-header {
+    background:#88BF50;
+    color:white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+/*Main Navigation*/
+#main-nav ul {
+    list-style-type: none; /*remove bullets*/
+}
+
+#main-nav li {
+    border-bottom: 1px solid white;
+}
+#main-nav li:first-child{
+    border-top:1px solid white;
+}
+
+#main-nav a {
+    color:white;
+    padding: 10px 5px;
+    display: block;
+    text-decoration: none; /*remove the under lines*/
+}
+#main-nav a:hover {
+    background: white;
+    color:#05592A;
+}
+
+
+/*Typography*/
+h1 {
+    text-align: center;
+}
+/*Larger Device*/
+@media only screen and (min-width: 768px) {
+    body {
+        background: url(images/tree.jpg);
+        background-size: cover;
+    }
+    #content {
+        width: 70%;
+
+    }
+    /*Columns*/
+    .columns {
+        display:flex;
+    }
+    /*Main Nav*/
+    #main-nav li, #main-nav li:first-child {
+        border:none;
+    }
+
+    #main-nav a:hover{
+        background: #05592A;
+        color:white;
+        border-bottom: 1px solid white;
+
+    }
+
+}

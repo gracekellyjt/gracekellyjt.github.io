@@ -1,17 +1,18 @@
 /*Structure*/
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
     background:url("images/landscape.jpg");
     background-size:cover;
-}
 
+}
 div {
-    background-color:#F2F0D8;
+    background-color:#fbcff9;
     width: 70%;
     margin:auto;    /*center*/
     padding: 1%;  /*get text away from edge*/
     border-radius:5px;  /*round corners*/
 }
+
 
 /*Tables*/
 table {
