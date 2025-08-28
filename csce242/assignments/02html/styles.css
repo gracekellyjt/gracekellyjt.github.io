@@ -18,11 +18,11 @@ table {
     border-collapse: collapse;
 }
 td, th {
-    border: 1px solid #472759;
+    border: 1px solid #d183ff;
     padding:5px 10px; /*Top and bottom 5, right and left 10*/
 }
 th {
-    background:#472759;
+    background:#d183ff;
 }
 
 /*Typography*/
