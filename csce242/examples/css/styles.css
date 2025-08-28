@@ -31,12 +31,12 @@ th {
 }
 
 /*Typography*/
+h4{
+    color:white;
+}
 h1 {
     color:#401801;
 }
-h2 {
+a {
     color:#732C02;
-}
-h4 {
-    color:white;
 }
