@@ -6,7 +6,7 @@ body {
 
 }
 div {
-    background-color:#fbcff9;
+    background-color:hsl(322, 92%, 81%);
     width: 70%;
     margin:auto;    /*center*/
     padding: 1%;  /*get text away from edge*/
