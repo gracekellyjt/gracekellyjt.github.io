@@ -24,3 +24,66 @@ p {
     color: rgb(50, 125, 200);
 }
 
+
+/*Main Navigation*/
+#main-nav ul {
+    list-style-type: none; /*remove bullets*/
+}
+
+#main-nav li {
+    border-bottom: 1px solid hotpink;
+}
+#main-nav li:first-child{
+    border-top:1px solid hotpink;
+}
+
+#main-nav a {
+    color:hotpink;
+    padding: 10px 5px;
+    display: block;
+    text-decoration: none; /*remove the under lines*/
+}
+#main-nav a:hover {
+    background: white;
+    color:hotpink;
+}
+
+
+/*Typography*/
+h1 {
+    text-align: center;
+}
+/*Larger Device*/
+@media only screen and (min-width: 768px) {
+    body {
+        background: url(beach.sunset.jpg);
+        background-size: cover;
+    }
+    #content {
+        width: 70%;
+
+    }
+    /*Columns*/
+    .columns {
+        display:flex;
+    }
+    /*Main Nav*/
+    #main-nav li {
+        flex:1
+    }
+    #main-nav li, #main-nav li:first-child {
+        border:none;
+    }
+    #main-nav a {
+        text-align: center;
+        padding: 5px;
+    }
+
+    #main-nav a:hover{
+        background: lightpink;
+        color:rgb(250, 115, 255);
+        border-bottom: 1px solid white;
+
+    }
+
+}
