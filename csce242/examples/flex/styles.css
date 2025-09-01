@@ -78,5 +78,11 @@ h1 {
         border-bottom: 1px solid white;
 
     }
+    #main-nav img {
+        text-align: center;
+        padding: 5px;
+    }
+
+    
 
 }
