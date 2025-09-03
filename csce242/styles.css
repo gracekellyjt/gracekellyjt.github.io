@@ -49,6 +49,7 @@ p {
 #main-nav ul {
     list-style-type: none; /*remove bullets*/
     text-align: center;
+    padding-left: 0;
 }
 
 #main-nav li {
