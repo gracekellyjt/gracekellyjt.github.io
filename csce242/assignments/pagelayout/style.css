@@ -9,7 +9,18 @@ body {
 }
 #box section, #box2 section, #col section {
     padding:10px;
-    margin: auto;
+    margin: 5px;
+}
+#box2 section {
+    padding-left: 10px;
+}
+#text {
+    width: 80%;
+    text-align: center;
+}
+.columns {
+    text-align: center;
+    width: 100%;
 }
 
 .two {
@@ -20,6 +31,7 @@ body {
 }
 .four {
     background-color: #D98B8B;
+
 }
 img {
     max-width:100%;
@@ -29,8 +41,9 @@ img {
     margin-left: 10px;
 }
 
-.list {
-    flex-wrap:wrap;
+
+#list2 {
+    max-width: 80%;
 }
 .item {
     width:60%;
@@ -52,11 +65,13 @@ img {
 #main-nav li {
     border-right:1px solid white;
 }
+
 .list {
     background: #68898C;
     padding: 5px;
     border-radius:5px;
     margin:5px;
+    flex-wrap:wrap;
 }
 .box {
     background: #D98B8B;
@@ -110,6 +125,15 @@ h1 {
     .one {
         flex:1;
         margin: auto;
+    }
+    .two {
+        flex:2
+    }
+    .three {
+        flex:3
+    }
+    .four {
+        flex:4
     }
 
     /*Main Nav*/
