@@ -117,7 +117,6 @@ nav a {
 #search-header {
     background-color: var(--secondary-color);
     position:relative;
-    padding-left: 1000px;
     padding: 5px;
 }
 #search-header a{
@@ -128,6 +127,10 @@ nav a {
 #search-header a:hover {
     color: white;
     background-color:#55050c;
+}
+#search-nav {
+    position: absolute;
+
 }
 
 #discover-head {
