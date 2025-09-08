@@ -130,6 +130,9 @@ nav a {
 }
 #search-nav {
     position: absolute;
+    right:0;
+    width:fit-content;
+    
 
 }
 
