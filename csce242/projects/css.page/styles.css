@@ -20,9 +20,7 @@ body {
     margin: auto;
     border-radius: 5px; 
 }
-#text {
-    text-align: center;
-}
+
 #main-header {
     background:var(--primary-color);
     color:white;
@@ -36,12 +34,17 @@ body {
     left:30px;
     width:75px;
 }
-#main-header p1, h2 {
+#main-header  h2 {
     display:block;
     position:absolute;
-    top: 35px;
+    top: 40px;
     left:120px;
-
+}
+#main-header p {
+    display:block;
+    position:absolute;
+    top: 20px;
+    left:120px;
 }
 
 /*Showcase*/
@@ -56,13 +59,11 @@ body {
     text-align: center;
 
     position:absolute;
-    bottom:20%;
+    top:250px;
 }
 #showcase img {
-    width: 100%;;
-    text-align: left;
-    position:relative;
-    top:40%;
+    width: 100%;
+    display:block;
 }
 #showcase2 {
     position:relative;
@@ -78,6 +79,65 @@ body {
     bottom:50px;
     left:3%;
 }
+#showcase3 img {
+    width: 100%;
+    display:block;
+}
+#showcase3 p {
+    background: black;
+    color:white;
+    padding-top: 30px;
+    padding-bottom:20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 40%;
+    text-align: left;
+
+    position:absolute;
+    top:220%;
+    right:7%;
+}
+#showcase4 p {
+    background: black;
+    color:white;
+    margin-top: 0%;
+    padding-top: 10px;
+    padding-bottom:120px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 40%;
+    text-align: left;
+
+    position:absolute;
+    top:230%;
+    right:7%;
+
+}
+
+#showcase5 p {
+    background: var(--secondary-color);
+    color:white;
+    padding-top: 20px;
+    padding-bottom:20px;
+    width: 17%;
+    text-align: center;
+
+    position:absolute;
+    top:240%;
+    right:33%;
+}
+#showcase5 p :hover {
+    background: white;
+    color:var(--secondary-color);
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 17%;
+}
+
+
+
 
 
 
@@ -116,13 +176,15 @@ nav a {
 
 #search-header {
     background-color: var(--secondary-color);
-    position:relative;
-    padding: 5px;
+    padding-bottom: 50px;
+    padding-top:5px;
+    text-align: center;
+
 }
 #search-header a{
     background-color: var(--secondary-color);
     color:white;
-    padding:20px;
+    padding:10px;
 }
 #search-header a:hover {
     color: white;
@@ -132,8 +194,6 @@ nav a {
     position: absolute;
     right:0;
     width:fit-content;
-    
-
 }
 
 #discover-head {
@@ -146,15 +206,23 @@ nav a {
     color:white;
     background-color:var(--secondary-color);
     padding: 10px 5px;
-    display: block;
-    text-align: center;
 }
 #program-nav li {
-    border-bottom: 1px solid white;
-    border-top:1px solid white;
-    border-left:1px solid white;
-    border-right:1px solid white;
     padding-left: 10px;
+    text-align: center;
+}
+
+#quote-nav {
+    background-color: var(--secondary-color);
+    color:white;
+    text-align: left;
+    right:50%;
+    padding-left: 650px;
+    padding-right: 100px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+
+
 }
 
 
@@ -176,6 +244,7 @@ h5 {
 
 
 
+
 /*Larger Device*/
 @media only screen and (min-width: 768px) {
     #content{
@@ -194,10 +263,16 @@ h5 {
     }
     .two {
         background-color: white;
-        padding: 50px;
+        padding: 40px;
     }
     .two h5 {
         color: var(--secondary-color);
+    }
+    .two p {
+        color: black;
+        text-align: center;
+        padding-left: 20%;
+        padding-right: 20%;
     }
  
 
