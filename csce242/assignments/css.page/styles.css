@@ -189,10 +189,11 @@ nav a {
 #search-header a:hover {
     color: white;
     background-color:#55050c;
+    padding:10px;
 }
 #search-nav {
     position: absolute;
-    right:0;
+    left:1;
     width:fit-content;
 }
 
