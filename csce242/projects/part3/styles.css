@@ -1,0 +1,350 @@
+:root {
+    --primary-color:#8B211F;
+}
+body {
+    background:white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
+}
+#content {
+    margin: 0;
+    border-radius: 0px;
+    padding: 0px;
+}
+
+
+/*Main content*/
+#main-header h1 {
+    background:color;
+    color:var(--primary-color);
+    padding: 15px;
+    margin:0;
+}
+#main-image-container {
+    margin:0;
+    padding:0;
+    width: 100%;
+}
+#main-img {
+    display:block;
+    padding-bottom:0;
+    width: 100%;   /* force it to fill full width */
+    height: auto;  /* keep proportions */
+}
+#main-content {
+    display: flex;
+    justify-content: center;
+    padding-top:10px;
+}
+
+
+
+
+/* Main Navigation */
+nav ul {
+    list-style-type: none;
+    text-decoration: none;
+    margin:0;
+    padding:0;
+}
+#question-nav ul {
+    background-color: black;
+    color:white;
+    padding:15px;
+    display: flex;
+    justify-content: flex-end; /* keeps question-nav on the right */
+    gap: 20px; /* spacing between links */
+    list-style: none;
+}
+#department-nav ul {
+    background-color:var(--primary-color);
+    color:white;
+    padding:15px;
+    display: flex;
+    justify-content: center;  
+    gap: 30px;                 
+    list-style: none;   
+    margin:0;       
+    flex-wrap:wrap;
+}
+#department-nav a:hover, #question-nav a:hover {
+    text-decoration: underline;
+}
+#department-nav a, #question-nav a {
+    color: white;
+    text-decoration: none; /* optional: removes underline */
+}
+#department-nav a {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/*Find Order*/
+#find-order-nav ul {
+  display: flex;
+  justify-content: center;   /* center the content horizontally */
+  align-items: center;       /* align text block with image vertically */
+  gap: 60px;                 /* space between text block and image */
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  flex-wrap: wrap;           /* allow wrapping on smaller screens */
+}
+
+#find-order-nav h2 {
+  text-align: center;
+  font-size: 3rem; 
+  margin-bottom: 30px;
+}
+
+/* Remove old p alignment */
+#find-order-nav p {
+  margin: 0;
+  text-align: center;
+}
+
+/* Order text + button block */
+.order-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centers text + button */
+  text-align: center;
+  padding-right:20%;
+}
+.order-text p {
+    padding-bottom:80px;
+}
+
+/* Continue button */
+.continue-btn {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 5px 25px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.continue-btn:hover {
+  background-color: #5c1615;
+}
+
+/*Departments*/
+#department-content {
+    background-color: whitesmoke;
+}
+#department-content aside {
+    background-color: white;
+    text-align: center;
+  margin: 0 60px;   /* adds 40px space on left AND right */
+  flex: 0 0 220px;  /* optional: fixed width if in flex layout */
+}
+#department-content aside ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  display: block;       /* override .columns */
+}
+#department-content aside li {
+  margin: 8px 0;        /* vertical spacing */
+  display: block;       /* force each onto its own line */
+}
+#department-content aside a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+#department-content aside a:hover {
+  text-decoration: underline;
+}
+
+
+/* Images */
+img {
+    max-width:100%;
+
+}
+
+/* Contact Us Page */
+#contact-us-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 across on desktop */
+    gap: 40px;
+}
+#contact-us-nav li {
+    display: flex;
+    flex-direction: column;  /* image on top, text below */
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+#contact-us-nav img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;  /* spacing between image and text */
+}
+#contact-us-nav p {
+    margin: 0;
+    line-height: 1.5;
+    max-width: 250px; /* keep text narrow so it looks balanced */
+}
+
+/*Lists */
+.item {
+    background:var(--primary-color);
+    color:white;
+    padding: 15px;
+    border-radius:5px;
+    margin-left:60px;
+    margin-right:60px;
+    text-align: center;
+    display: flex;
+}
+#item-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns on desktop */
+  gap: 20px;
+}
+
+.gallery {
+    color:black;
+    text-align: center;
+    display: flex;
+}
+#gallery-list {
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+}
+#gallery-list section {
+    margin:5px;
+    padding-right: 10px;
+
+}
+
+/*Showcase*/
+#showcase {
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* true centering */
+    background-color: white;
+    padding: 20px 70px;
+    text-align: center;
+}
+#showcase h2 {
+    color:black;
+    margin: 0%;
+    font-size: 3rem; 
+}
+#showcase3 {
+    position: relative;
+    top:65%;
+    left:0%;
+    margin:5%;
+}
+
+.columns {
+    display:flex;
+}
+
+
+/*Specific Item*/
+#single-item-content {
+  display: flex;               
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 40px 0;
+}
+
+
+/* Add to Cart button */
+.cart-btn {
+  display: inline-block;
+  background: #8B211F;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.cart-btn:hover {
+  background: #601615;
+}
+.product-info h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* Description and details text */
+.product-info p,
+.product-info ul {
+  text-align: left;
+  line-height: 1.6;
+}
+.extra-info {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+
+
+
+
+
+/*Screen adjustments*/
+@media (max-width: 768px) {
+    #question-nav ul {
+        justify-content: center; /* center top nav on smaller screens */
+        flex-wrap: wrap;
+    }
+
+    #department-nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    #contact-us-nav ul {
+        grid-template-columns: repeat(2, 1fr); /* 2 per row */
+    }
+    #find-order-nav ul {
+        flex-direction: column;   /* stack text/button above image */
+        gap: 30px;
+    }
+     #single-item-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+}
+@media (max-width: 480px) {
+    #department-nav ul {
+        flex-direction: column;
+        align-items: center;
+  }
+    #item-list {
+        grid-template-columns: 1fr;
+  }
+    #find-order-nav ul {
+        flex-direction: column;   /* stack text/button above image */
+        gap: 30px;
+  }
+
+    #find-order-nav img {
+        max-width: 90%;          /* make image scale on mobile */
+        height: auto;
+    }
+
+}
