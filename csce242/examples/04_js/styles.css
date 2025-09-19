@@ -87,6 +87,14 @@ main {
     color:purple;
 }
 
+.error {
+    color:red;
+}
+
+input {
+    max-width: 100%;
+}
+
 .sub-section a {
     text-decoration:none;
     color:var(--primary-color);
@@ -123,6 +131,10 @@ main {
 }
 
 #ball {
+    background: #2B91AD;
+    height: 50px;
+    width:50px;
+    border-radius: 50px;
     animation-name: fun;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -138,7 +150,7 @@ main {
     height:200px;
     margin-right:10%;
     border:2px solid var(--primary-color);
-    background:linear-gradient(0deg, red 0% var(--donation-percent), white var(--donation-percent) 100%);
+    background:linear-gradient(0deg, red 0% 20%, orange 30% 40%, green 50% 70%, blue 75% 100%);
 }
 
 .error {
